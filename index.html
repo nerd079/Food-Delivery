@@ -1,36 +1,33 @@
 <html>
     <head>
-        <title>Best News Ever!</title>
-
+        <title>Pizza Delivery</title>
     </head>
     <body>
         <header>
-            <h1>Best Pizza Ever!</h1>
-            <h3>come and get some, homie.</h3>
+          <div class="b">
+            <center><h1>Best Pizza Ever!</h1></center>
+          </div>
         </header>
-
+        <link rel="stylesheet" href="style.css"/>
         <main>
 
-
-
-            </section>
+          </section>
 
             <section id="contact-form">
-              <h2>place order</h2>
               <form method="POST" action="place-order.php">
                 <h4>Delivery</h4>
-                <input name="deliveryMethod" type="radio" value="delivery" /> Delivery<br/>
+                <div class="n">
+                <input name="deliveryMethod" type="radio" value="delivery" />Delivery<br/>
                 <input name="deliveryMethod" type="radio" value="pickup" /> Pickup<br/>
+                </div>
 
 
                 <h4>Address</h4>
                 <input name="address1" placeholder="Address line 1" class="lg-input" /><br />
                 <input name="address2" placeholder="Address line 2" class="lg-input" /><br />
-
-                <input name="city" placeholder="City" class="sm-input"/>
+                <input name="city" placeholder="City" class="sm-input"/><br />
                 <input name="state" placeholder="State" class="sm-input" /><br />
                 <input name="zip" placeholder="Zip code" class-="sm-input" />
-                <br />
                 <br />
 
                 <h4>Size</h4>
@@ -41,33 +38,24 @@
                     <option value="72">72" - $149.99</option>
                   </select>
 
-
-
-
                 <h4>Ingredients</h4>
+                <div class="t">
                 <input name="ingredient" type="checkbox" value="pepperoni"/> Pepperoni<br />
                 <input name="ingredient" type="checkbox" value="salami"/> Salami<br />
-                <input name="ingredient" type="checkbox" value="bacon"/> Bacon<br />
                 <input name="ingredient" type="checkbox" value="sausage"/> Italian Sausage<br />
-                <input name="ingredient" type="checkbox" value="onions"/> Onions<br />
                 <input name="ingredient" type="checkbox" value="peppers"/> Green Peppers<br />
-                <br/><br/>
-                <button type="submit"> Place order</button>
+                </div>
+                <center><button type="submit">Place order</button></center>
               </form>
             </section>
 
 
             <footer>
-                <center>&copy; 2020<br />
+              <center>&copy; 2020<br />
                 <a href="#">Terms of service</a>
-            </center>
+              </center>
             </footer>
         </main>
-
-
-
-
-
 
     </body>
 </html>
