@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 .b {
-    font-family: 'Bangers', cursive;
+    font-family: 'Ubuntu', sans-serif;
     font-style: italic;
     font-size: 100%;;
 }
@@ -15,22 +15,22 @@ body {
 }
 
 h4 {
-    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h2 {
-    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .n {
-    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 button {
     background-color: #F69680;
     color: #2E1263;
     padding: 20px 25px;
-    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     text-align: center;
     border: 1px solid #2E1263;
@@ -48,21 +48,21 @@ button:hover {
 }
 
 select {
-    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 input {
-    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .t {
-    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .n {
-    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 center {
-    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
